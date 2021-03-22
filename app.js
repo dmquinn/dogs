@@ -22,6 +22,9 @@ app.get("/services", (req, res) => {
 app.get("/booking", (req, res) => {
 	res.render("booking");
 });
+app.get("/gallery", (req, res) => {
+	res.render("gallery");
+});
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
 	console.log(`serving on port ${port}`);

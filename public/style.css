@@ -22,14 +22,22 @@
 	background-image: url("https://images.unsplash.com/photo-1558929996-da64ba858215?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80");
 }
 .aboutJumbo {
-	background-image: url("https://images.unsplash.com/photo-1562317305-58a17fe2c09e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+	background-image: url("https://images.unsplash.com/photo-1596653048881-dc30d5b20b00?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=708&q=80");
 }
 .servicesJumbo {
 	background-image: url("https://images.unsplash.com/photo-1551717743-49959800b1f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80");
 }
+.galleryJumbo {
+	background-image: url("gallery.jpeg");
+}
 .col-centered {
 	float: none;
 	margin: 0 auto;
+}
+.galleryImg {
+	height: 500px;
+	width: 500px;
+	object-fit: cover;
 }
 .display-4 {
 	position: relative;
@@ -209,5 +217,9 @@ a {
 	}
 	.jumbotron {
 		background-size: cover;
+	}
+	.img-fluid {
+		position: relative;
+		margin-top: 20px;
 	}
 }
