@@ -3,6 +3,8 @@ console.log("connected");
 const express = require("express");
 const ejsMate = require("ejs-mate");
 const secret = process.env.SECRET || "thisworks";
+const { storage } = require("./cloudinary");
+// const upload = multer({ storage });
 const path = require("path");
 const app = express();
 app.engine("ejs", ejsMate);
@@ -25,6 +27,7 @@ app.get("/booking", (req, res) => {
 app.get("/gallery", (req, res) => {
 	res.render("gallery");
 });
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
 	console.log(`serving on port ${port}`);
