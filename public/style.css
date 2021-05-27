@@ -18,7 +18,7 @@ i {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 20% 40%;
-	backdrop-filter: brightness(70%);
+	/* backdrop-filter: brightness(70%); */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -43,20 +43,34 @@ body {
 	background-size: cover;
 }
 .homeJumbo {
-	background-image: url("https://images.unsplash.com/photo-1558929996-da64ba858215?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80");
+	background-image: url("home.svg");
 }
 .aboutJumbo {
-	background-image: url("https://images.unsplash.com/photo-1596653048881-dc30d5b20b00?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=708&q=80");
+	background-image: url("P2.meet-the-team.jpg.jpg");
 }
 .servicesJumbo {
-	background-image: url("https://images.unsplash.com/photo-1551717743-49959800b1f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80");
+	background-image: url("P3.services.jpg");
 }
 .galleryJumbo {
+	background-image: url("gallery.jpeg");
+}
+.testimonialsJumbo {
 	background-image: url("gallery.jpeg");
 }
 .col-centered {
 	float: none;
 	margin: 0 auto;
+}
+.card {
+	border: none;
+	box-shadow: 0 4px 25px 10px rgba(0, 0, 0, 0.1);
+}
+.cardImg {
+	height: 400px;
+	padding: 20px;
+}
+.mainServ {
+	padding: 20px;
 }
 .galleryImg {
 	height: 500px;
@@ -71,18 +85,26 @@ body {
 	z-index: 999;
 	text-align: center;
 	color: white;
+	text-shadow: 6px 4px black;
 	transition: 2s;
 }
 .navbar {
 	background-color: rgba(84, 187, 173, 0) !important;
 	font-family: "Luckiest Guy", cursive;
-	letter-spacing: 2px;
+	color: white;
+	letter-spacing: 2.5px;
+}
+.nav-link {
+	border-radius: 15px;
+	padding: 10px 10px 15px 15px !important;
+	background-color: rgba(0, 0, 0, 0.425);
+	color: white !important;
 }
 .overlay {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.007));
+	/* background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.007)); */
 	z-index: 999;
 	animation: move 9s linear infinite;
 }
@@ -102,6 +124,9 @@ ul {
 }
 li {
 	list-style: none;
+}
+.serviceList {
+	list-style: circle;
 }
 a:focus,
 a:hover {

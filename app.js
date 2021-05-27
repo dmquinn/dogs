@@ -27,6 +27,12 @@ app.get("/booking", (req, res) => {
 app.get("/gallery", (req, res) => {
 	res.render("gallery");
 });
+app.get("/adventure", (req, res) => {
+	res.render("adventure");
+});
+app.get("/testimonials", (req, res) => {
+	res.render("testimonials");
+});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
