@@ -37,25 +37,34 @@ body {
 	font-weight: bold;
 }
 .lottieContainer {
-	width: 400px;
+	width: 300px;
 	height: 500px;
 	background-image: url("lottie.jpeg");
-	background-size: cover;
+	background-size: 100% 100%;
 }
 .homeJumbo {
-	background-image: url("home.svg");
+	background-image: url("homesmall.svg");
+	background-size: 100% 100%;
 }
 .aboutJumbo {
 	background-image: url("P2.meet-the-team.jpg.jpg");
+	background-size: 100% 100%;
 }
 .servicesJumbo {
 	background-image: url("P3.services.jpg");
+	background-size: 100% 100%;
 }
 .galleryJumbo {
 	background-image: url("gallery.jpeg");
+	background-size: 100% 100%;
 }
 .testimonialsJumbo {
-	background-image: url("gallery.jpeg");
+	background-image: url("P5.testimonials.jpg");
+	background-size: 100% 100%;
+}
+.adventureJumbo {
+	background-image: url("P4.adventurewalks.jpg");
+	background-size: 100% 100%;
 }
 .col-centered {
 	float: none;
@@ -66,7 +75,7 @@ body {
 	box-shadow: 0 4px 25px 10px rgba(0, 0, 0, 0.1);
 }
 .cardImg {
-	height: 400px;
+	height: 350px;
 	padding: 20px;
 }
 .mainServ {
@@ -262,16 +271,30 @@ a {
 		overflow-x: hidden;
 	}
 	.display-4 {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.footer-menu {
 		padding-left: 0;
 	}
 	.jumbotron {
 		background-size: cover;
+		background-position: center;
+	}
+	.homeJumbo {
+		background-position: 26% 20%;
+	}
+	.galleryJumbo {
+		background-position: 20% 0%;
 	}
 	.img-fluid {
 		position: relative;
 		margin-top: 20px;
+	}
+	.homeJumbo {
+		background-image: url("homesmall.svg");
+		background-size: cover;
+	}
+	.cardImg {
+		height: 300px;
 	}
 }
