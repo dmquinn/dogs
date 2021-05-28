@@ -104,7 +104,7 @@ body {
 	letter-spacing: 2.5px;
 }
 .nav-link {
-	border-radius: 15px;
+	border-radius: 5px;
 	padding: 10px 10px 15px 15px !important;
 	background-color: rgba(0, 0, 0, 0.425);
 	color: white !important;
